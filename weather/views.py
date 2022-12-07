@@ -4,7 +4,7 @@ import requests
 from .forms import CityForm
 
 def index(request):
-    url = 'http://api.openweathermap.org/data/2.5/weather?q={}&units=imperial&appid=ddb88acc5ea2a53d80a9a7182e4ca094'
+    url = 'http://api.openweathermap.org/data/2.5/weather?q={}&units=imperial&appid=APIKEY'
 
     cities = City.objects.all() #return all the cities in the database
 
